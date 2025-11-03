@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Cozy Noodle House</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <span class="logo">
+      <a href="restaurantMenu.html"><img src="logo.jpeg" width="60" id="header-img" alt="The Cozy Noodle House"></a>
+      <h1 id="h2">The Cozy Noodle House</h1>
+    </span>
+    <nav class="nav">
+      <a class="menu" href="#"><h2>Menu</h2></a>
+      <a class="order" href="#"><h2>Order Form</h2></a>
+    </nav>
+  </header>
+
+  <main>
+    <article class="block">
+   
+      <div class="menu-item">
+        <h3>Spicy Ramen Deluxe</h3>
+        <img src="ramen.jpeg" width="150" height="100" alt="Spicy Ramen Deluxe">
+        <p>A hearty ramen made with pork broth, chili oil, soft-boiled egg, and fresh scallions.</p>
+        <b>Price: $12.99</b>
+        <hr>
+        <form action="restaurantMenu.html" method="get">
+          <label for="qty-ramen">How many bowls?</label><br>
+          <input type="number" id="qty-ramen" name="qty-ramen" min="0" required><br><br>
+
+          <label>Extra toppings:</label><br>
+          <input type="checkbox" id="gyoza-ramen" name="toppings" value="Gyoza">
+          <label for="gyoza-ramen">Gyoza</label><br>
+
+          <input type="checkbox" id="springrolls-ramen" name="toppings" value="Spring Rolls">
+          <label for="springrolls-ramen">Spring Rolls</label><br>
+
+          <input type="checkbox" id="edamame-ramen" name="toppings" value="Edamame">
+          <label for="edamame-ramen">Edamame</label><br><br>
+
+          <label for="req-ramen">Special requests:</label><br>
+          <textarea id="req-ramen" name="requests" rows="3"></textarea>
+          <hr>
+          <input type="submit" value="Go To Checkout">
+        </form>
+      </div>
+
+      <div class="menu-item">
+        <h3>Vegan Miso Bowl</h3>
+        <img src="miso.jpeg" width="150" height="100" alt="Vegan Miso Bowl">
+        <p>This miso tofu bowl is protein-packed, super easy to make, and so flavourful!</p>
+        <b>Price: $10.99</b>
+        <hr>
+        <form action="restaurantMenu.html" method="get">
+          <label for="qty-miso">How many bowls?</label><br>
+          <input type="number" id="qty-miso" name="qty-miso" min="0" required><br><br>
+
+          <label>Extra toppings:</label><br>
+          <input type="checkbox" id="gyoza-miso" name="toppings" value="Gyoza">
+          <label for="gyoza-miso">Gyoza</label><br>
+
+          <input type="checkbox" id="springrolls-miso" name="toppings" value="Spring Rolls">
+          <label for="springrolls-miso">Spring Rolls</label><br>
+
+          <input type="checkbox" id="edamame-miso" name="toppings" value="Edamame">
+          <label for="edamame-miso">Edamame</label><br><br>
+
+          <label for="req-miso">Special requests:</label><br>
+          <textarea id="req-miso" name="requests" rows="3"></textarea>
+          <hr>
+          <input type="submit" value="Go To Checkout">
+        </form>
+      </div>
+
+     
+      <div class="menu-item">
+        <h3>Chicken Teriyaki Don</h3>
+        <img src="don.jpeg" width="150" height="100" alt="Chicken Teriyaki Don">
+        <p>Grilled chicken glazed in teriyaki sauce, served over steamed rice.</p>
+        <b>Price: $11.49</b>
+        <hr>
+        <form action="restaurantMenu.html" method="get">
+          <label for="qty-don">How many bowls?</label><br>
+          <input type="number" id="qty-don" name="qty-don" min="0" required><br><br>
+
+          <label>Extra toppings:</label><br>
+          <input type="checkbox" id="gyoza-don" name="toppings" value="Gyoza">
+          <label for="gyoza-don">Gyoza</label><br>
+
+          <input type="checkbox" id="springrolls-don" name="toppings" value="Spring Rolls">
+          <label for="springrolls-don">Spring Rolls</label><br>
+
+          <input type="checkbox" id="edamame-don" name="toppings" value="Edamame">
+          <label for="edamame-don">Edamame</label><br><br>
+
+          <label for="req-don">Special requests:</label><br>
+          <textarea id="req-don" name="requests" rows="3"></textarea>
+          <hr>
+          <input type="submit" value="Go To Checkout">
+        </form>
+      </div>
+    </article>
+  </main>
+
+  <footer class="foot">
+    <p>Made with love by Prasish ❤️</p>
+  </footer>
+</body>
+</html>
